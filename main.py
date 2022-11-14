@@ -101,6 +101,4 @@ saved_user_data = {
 saved_user = pandas.DataFrame(saved_user_data)
 saved_user.to_csv(f"user_files/{user_name}.csv")
 
-
-
-screen.mainloop()
+# screen.mainloop()
