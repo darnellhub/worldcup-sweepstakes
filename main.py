@@ -45,7 +45,7 @@ def get_coor(x, y):
     pyperclip.copy(str(x) + " " + str(y))
     print(x, y)
 
-user_mode = screen.textinput(title="World Cup Sweepstakes",
+# user_mode = screen.textinput(title="World Cup Sweepstakes",
                                  prompt="Are you ready to join the World Cup Fantasy League?")
 
 user_name = screen.textinput(title="World Cup Sweepstakes",
